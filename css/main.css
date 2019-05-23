@@ -1,0 +1,202 @@
+
+/************* BASE STYLES **********************/
+
+body {
+	font-family: 'Catamaran';
+	margin: 0;
+	color: #095256;
+}
+
+.mainpage {
+	height: 800px;
+}
+
+#portfolio {
+	height: 1450px;
+}
+
+#about {
+	height: 650px;
+}
+
+footer {
+	height: 450px;
+}
+
+p {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/******************** GRID ***********************/
+
+.full-width {
+	width: 1400px;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+
+/****************** HEADER ************************/
+
+.mainpage {
+	background: url('../img/hero-image.png');
+}
+
+h1 {
+	font-family: 'Fredericka the Great';
+	font-size: 60px;
+	text-align: center;
+	color: #bdbf09;
+}
+
+#hello {
+	padding-top: 345px;
+	margin-left: 300px;
+	width: 790px;
+}
+
+header p {
+	font-size: 26px;
+	text-align: center;
+}
+
+/******************** HEADER SECONDARY PAGES ********/
+
+.secondary-pages {
+	background-color: #095156;
+	color: white;
+	height: 150px;
+}
+.secondary-pages h1{
+	text-align: left;
+	color: white;
+	margin-bottom: 0px;
+	font-size: 50px;
+}
+
+#title-tagline {
+	float: left;
+	clear: both;
+	margin-left: 50px;
+}
+
+.secondary-pages h3 {
+	margin-top: 0px;
+}
+
+
+/************* NAVIGATION *********************/
+
+nav {
+    float: right; 
+    padding: 75px 50px 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px 20px 0px;
+    font-size: 18px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+
+/****************** PORTFOLIO ************************/
+
+
+#roguepickings, #jubilee, #holstee {
+	clear: both;
+	margin-left: 100px;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 50px;
+	padding-top: 40px;
+	font-family: 'Fredericka the Great';
+	font-size: 40px;
+}
+
+#portfolio a {
+	color: #095156;
+}
+
+h3 {
+	font-size: 26px;
+	margin-bottom: 0px;
+}
+
+h4 {
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+#rogue {
+	border: solid 1px #095156;
+}
+
+/****************** ABOUT ME ************************/
+
+#about {
+	color: white;
+	background-color: #087e8b;
+}
+
+#about-me-pic {
+	margin-left: 100px;
+	text-align: center;
+}
+
+#centeredimage {
+	display: inline-block;
+}
+
+
+/****************** FOOTER ************************/
+
+footer {
+	color: white;
+	background-color: #095156;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li {
+	display: inline-block;
+}
+
+footer li {
+	padding: 25px;
+}
+
+
+.third-width {
+	text-align: center;
+}
+
+
+#hire {
+	margin-left: 100px;
+}
+
