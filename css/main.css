@@ -8,19 +8,19 @@ body {
 }
 
 .mainpage {
-	height: 800px;
+	
 }
 
 #portfolio {
-	height: 1450px;
+	
 }
 
 #about {
-	height: 650px;
+	
 }
 
 footer {
-	height: 450px;
+	
 }
 
 p {
@@ -34,18 +34,20 @@ a {
 /******************** GRID ***********************/
 
 .full-width {
-	width: 1400px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 .half-width {
-	width: 600px;
-	float: left;
-	margin-bottom: 50px;
+	width: 45%;
+	margin-bottom: 40px;
 }
 
 .third-width {
-	width: 400px;
-	float: left;
+	width: 30%;
 }
 
 
@@ -65,12 +67,13 @@ h1 {
 #hello {
 	padding-top: 345px;
 	margin-left: 300px;
-	width: 790px;
+	width: 65%;
 }
 
 header p {
 	font-size: 26px;
 	text-align: center;
+	margin-bottom: 150px;
 }
 
 /******************** HEADER SECONDARY PAGES ********/
@@ -78,7 +81,7 @@ header p {
 .secondary-pages {
 	background-color: #095156;
 	color: white;
-	height: 150px;
+	
 }
 .secondary-pages h1{
 	text-align: left;
@@ -88,8 +91,6 @@ header p {
 }
 
 #title-tagline {
-	float: left;
-	clear: both;
 	margin-left: 50px;
 }
 
@@ -101,7 +102,6 @@ header p {
 /************* NAVIGATION *********************/
 
 nav {
-    float: right; 
     padding: 75px 50px 0px;
 }
 
@@ -121,15 +121,11 @@ nav a {
 
 
 #roguepickings, #jubilee, #holstee {
-	clear: both;
-	margin-left: 100px;
+	
 }
 
 h2 {
 	text-align: center;
-	margin-top: 0;
-	margin-bottom: 50px;
-	padding-top: 40px;
 	font-family: 'Fredericka the Great';
 	font-size: 40px;
 }
@@ -140,12 +136,10 @@ h2 {
 
 h3 {
 	font-size: 26px;
-	margin-bottom: 0px;
 }
 
 h4 {
 	font-size: 20px;
-	margin-top: 0px;
 }
 
 #rogue {
@@ -160,12 +154,11 @@ h4 {
 }
 
 #about-me-pic {
-	margin-left: 100px;
-	text-align: center;
+
 }
 
 #centeredimage {
-	display: inline-block;
+
 }
 
 
@@ -183,11 +176,11 @@ footer ul {
 }
 
 footer ul li {
-	display: inline-block;
+	
 }
 
 footer li {
-	padding: 25px;
+	
 }
 
 
@@ -197,6 +190,6 @@ footer li {
 
 
 #hire {
-	margin-left: 100px;
+	
 }
 
