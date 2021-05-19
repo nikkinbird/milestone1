@@ -65,8 +65,8 @@ h1 {
 }
 
 #hello {
-	padding-top: 345px;
-	margin-left: 300px;
+	padding-top: 300px;
+	margin-left: 200px;
 	width: 65%;
 }
 
@@ -168,6 +168,8 @@ h4 {
 
 .footer-contact h2 {
 	width: 100%;
+	margin-top: 0;
+	padding-top: 1em;
 }
 
 footer {
