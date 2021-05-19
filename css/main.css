@@ -1,5 +1,5 @@
 
-/************* BASE STYLES **********************/
+/************* BASE STYLES - MOBILE FIRST **********************/
 
 body {
 	font-family: 'Catamaran';
@@ -38,11 +38,11 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 }
 
 .half-width {
-	width: 45%;
+	width: 100%;
 	margin-bottom: 40px;
 	display: flex;
 	justify-content: center;
@@ -63,15 +63,15 @@ a {
 
 h1 {
 	font-family: 'Fredericka the Great';
-	font-size: 60px;
+	font-size: 3em;
 	text-align: center;
 	color: #bdbf09;
+	margin-top: 3em;
 }
 
 #hello {
-	padding-top: 300px;
-	margin-left: 200px;
-	width: 65%;
+	text-align: center;
+	width: 90%;
 }
 
 header p {
@@ -197,19 +197,61 @@ footer ul li {
 	padding: 25px;
 }
 
-footer li {
-	
-}
-
-
-
-
 .third-width {
 	text-align: center;
 }
 
 
-#hire {
-	
+/****************** TABLET STYLES ************************/
+
+@media only screen and (min-width: 768px) {
+
 }
+
+
+/****************** DESKTOP STYLES ************************/
+
+@media only screen and (min-width: 1200px) {
+
+/* layout styles */
+.full-width {
+	width: 100%;
+}
+
+.half-width {
+	width: 45%;
+	margin-bottom: 40px;
+}
+
+.third-width {
+	width: 30%;
+}
+
+
+/* Hero area */
+
+h1 {
+	font-family: 'Fredericka the Great';
+	font-size: 60px;
+	text-align: center;
+	color: #bdbf09;
+}
+
+#hello {
+	padding-top: 300px;
+	margin-left: 200px;
+	width: 65%;
+}
+
+header p {
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+
+
+
+}
+
 
