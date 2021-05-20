@@ -60,7 +60,7 @@ a {
 .mainpage {
 	background: url('../img/hero-image.png') no-repeat center;
 	background-size: cover;
-	background-position: -625px;
+	background-position: right;
 	height: 600px;
 }
 
