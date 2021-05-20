@@ -37,7 +37,7 @@ a {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	flex-flow: column wrap;
 }
 
@@ -58,26 +58,30 @@ a {
 /****************** HEADER ************************/
 
 .mainpage {
-	background: url('../img/hero-image.png');
+	background: url('../img/hero-image.png') no-repeat center;
+	background-size: cover;
+	background-position: -625px;
+	height: 600px;
 }
 
 h1 {
 	font-family: 'Fredericka the Great';
 	font-size: 3em;
-	text-align: center;
+	text-align: left;
 	color: #bdbf09;
-	margin-top: 3em;
+	margin-top: 2em;
 }
 
 #hello {
-	text-align: center;
 	width: 90%;
 }
 
 header p {
-	font-size: 26px;
-	text-align: center;
-	margin-bottom: 150px;
+	font-size: 1.4em;
+	text-align: left;
+	width: 65%;
+	padding-top: 1.5em;
+	/* margin-bottom: 150px; */
 }
 
 /******************** HEADER SECONDARY PAGES ********/
