@@ -156,6 +156,17 @@ h4 {
 	border: solid 1px #095156;
 }
 
+.thumbnail img {
+	max-width: 90%;
+}
+
+.thumbnail a {
+	text-align: center;
+}
+
+.project-text {
+	max-width: 90%;
+}
 /****************** ABOUT ME ************************/
 
 #about {
