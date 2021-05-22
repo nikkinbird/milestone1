@@ -229,6 +229,37 @@ footer ul li {
 
 @media only screen and (min-width: 768px) {
 
+	/* Grid */
+	.full-width {
+		flex-flow: row wrap;
+		align-items: flex-start;
+	}
+
+	.half-width {
+		width: 45%;
+	}
+
+	/* Header */
+
+	.mainpage {
+		background-size: cover;
+	}
+
+	#hello {
+		margin-top: 200px;
+		padding-left: 3em;
+	}
+
+	header p {
+		font-size: 1.5em;
+		padding-top: 0;
+	}
+
+	/* About Me */
+
+	#about-me-pic, #about-text {
+		width: 45%;
+	}
 }
 
 
