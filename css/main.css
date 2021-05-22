@@ -45,13 +45,13 @@ a {
 	width: 100%;
 	margin-bottom: 40px;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-flow: row wrap;
 }
 
 .third-width {
-	width: 30%;
+	width: 90%;
 }
 
 
@@ -178,9 +178,17 @@ h4 {
 	width: 100%;
 }
 
+#about-me-pic, #about-text {
+	width: 90%;
+}
+
 #about-me-pic {
 	display: flex;
 	justify-content: center;
+}
+
+#about-me-pic img {
+	width: 90%;
 }
 
 
