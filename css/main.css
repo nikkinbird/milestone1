@@ -237,6 +237,11 @@ footer ul li {
 
 	.half-width {
 		width: 45%;
+		padding: .5em;
+	}
+
+	.third-width {
+		width: 30%;
 	}
 
 	/* Header */
@@ -259,6 +264,16 @@ footer ul li {
 
 	#about-me-pic, #about-text {
 		width: 45%;
+	}
+
+	/* Footer */
+
+	#follow ul li {
+		padding: 25px 10px;
+	}
+
+	.footer-contact {
+		padding-bottom: 50px;
 	}
 }
 
