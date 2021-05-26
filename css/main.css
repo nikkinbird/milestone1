@@ -235,7 +235,7 @@ footer ul li {
 }
 
 
-/****************** TABLET STYLES ************************/
+/****************** TABLET STYLES **************************************************************/
 
 @media only screen and (min-width: 768px) {
 
@@ -285,10 +285,52 @@ footer ul li {
 	.footer-contact {
 		padding-bottom: 50px;
 	}
+
+	/********Secondary Pages Tablet Styles **********/
+	.secondary-pages {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		flex-flow: row wrap;
+	}
+
+	.secondary-pages h1 {
+	margin: 0px;
+	padding-top: .5em;
+	text-align: left;
+	color: white;
+	font-size: 50px;
+	}
+
+	.secondary-pages #title-tagline h3 {
+		text-align: left;
+		padding-bottom: 0;
+	}
+
+	.secondary-pages #title-tagline {
+		border: none;
+		padding-left: 20px;
+	}
+
+	/** Navigation **/
+
+	nav ul {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		flex-flow: row wrap;
+		margin: 0;
+		padding-right: 20px;
+	}
+
+	nav ul li {
+		font-size: 1.5em;
+		padding: 5px;
+	}
 }
 
 
-/****************** DESKTOP STYLES ************************/
+/****************** DESKTOP STYLES *************************************************************/
 
 @media only screen and (min-width: 1200px) {
 
