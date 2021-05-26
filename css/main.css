@@ -92,31 +92,40 @@ header p {
 	
 }
 .secondary-pages h1{
+	padding-top: .75em;
+	margin: 0px;
 	text-align: left;
 	color: white;
-	margin-bottom: 0px;
 	font-size: 50px;
+	
 }
 
-#title-tagline {
-	margin-left: 50px;
+.secondary-pages #title-tagline {
+	border-bottom: 1px solid white;
+}
+
+.secondary-pages #title-tagline h3 {
+	text-align: center;
+	padding-bottom: 25px;
+	
 }
 
 .secondary-pages h3 {
-	margin-top: 0px;
+	font-size: 2em;
 }
 
 
 /************* NAVIGATION *********************/
 
-nav {
-    padding: 75px 50px 0px;
+nav ul {
+ 	padding: 10px 0 0;
 }
 
 nav ul li{
-    display: inline-block;
-    padding: 20px 20px 0px;
-    font-size: 18px;
+    font-size: 1.75em;
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
 }
 
 nav a {
