@@ -310,6 +310,7 @@ footer ul li {
 	.secondary-pages #title-tagline {
 		border: none;
 		padding-left: 20px;
+		padding-bottom: 20px;
 	}
 
 	/** Navigation **/
@@ -381,6 +382,20 @@ header p {
 	border-radius: 50%;
 }
 
+/*** Secondary Pages ***/
+
+.secondary-pages #title-tagline {
+		border: none;
+		padding-left: 75px;
+	}
+
+nav ul {
+	padding-right: 75px;
+}
+
+nav ul li {
+	padding: 0 10px 0 10px;
+}
 
 
 }
