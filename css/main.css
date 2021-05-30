@@ -149,7 +149,7 @@ h2 {
 	font-size: 40px;
 }
 
-#portfolio a {
+#portfolio a, #services a {
 	color: #095156;
 }
 
