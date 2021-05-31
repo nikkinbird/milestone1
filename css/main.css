@@ -240,6 +240,17 @@ footer ul li {
 	text-align: center;
 }
 
+/************* SERVICES PAGE  ****************/
+
+.service h3 {
+	text-align: center;
+}
+
+.service i {
+	font-size: 4em;
+	margin:  auto;
+	padding-bottom: .5em;
+}
 
 /****************** TABLET STYLES **************************************************************/
 
