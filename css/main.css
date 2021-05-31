@@ -333,9 +333,10 @@ footer ul li {
 
 	/* About Me */
 
-	#about-me-pic, #about-text {
+	#about-me-pic {
 		width: 45%;
 	}
+	
 
 	/* Footer */
 
@@ -453,10 +454,20 @@ header p {
 
 /* About me */
 
+#about {
+	align-items: center;
+}
+
+#about-me-pic, #about-text {
+		width: 45%;
+	}
+
 #about-me-pic img {
 	width: 50%;
 	border-radius: 50%;
 }
+
+
 
 /*** Secondary Pages ***/
 
