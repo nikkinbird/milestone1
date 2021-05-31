@@ -57,7 +57,7 @@ a {
 }
 
 .quarter-width {
-	width:  23%;
+	width:  40%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -263,17 +263,22 @@ footer ul li {
 
 /************* SERVICES PAGE  ****************/
 #services h2 {
-	padding-bottom: 1em;
 	width:  100%;
 }
 
 #services {
-	padding-bottom: 2em;
+	padding-bottom: 5em;
 	background-color: #FBFBFB;
 }
 
 #services i {
 	marign: 0;
+}
+
+#services .full-width {
+	justify-content: space-around;
+	align-items:  flex-start;
+	flex-flow:  row wrap;
 }
 
 .service h3, .service h4 {
@@ -288,7 +293,7 @@ footer ul li {
 }
 
 .service {
-	padding-top: 1em;
+	padding-top: 2em;
 }
 
 /****************** TABLET STYLES **************************************************************/
@@ -414,6 +419,10 @@ footer ul li {
 
 .third-width {
 	width: 30%;
+}
+
+.quarter-width {
+	width: 25%;
 }
 
 
