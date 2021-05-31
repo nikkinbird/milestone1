@@ -141,6 +141,7 @@ nav a {
 
 .half-width h3, .half-width h4 {
 	width: 100%;
+	text-align:  center;
 }
 
 h2 {
@@ -180,7 +181,12 @@ h4 {
 }
 
 #viewmore a {
-	font-size:  1.25em;
+	font-size: 1.25em;
+}
+
+#viewmore {
+	width: 80%;
+	text-align: center;
 }
 /****************** ABOUT ME ************************/
 
@@ -252,9 +258,13 @@ footer ul li {
 	padding-bottom: .5em;
 }
 
+.service {
+	width: 90%;
+}
+
 /****************** TABLET STYLES **************************************************************/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 750px) {
 
 	/* Grid */
 	.full-width {
